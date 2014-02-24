@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <SessionStorage Value="InIDEConfig"/>
+      <MainUnit Value="0"/>
+      <Title Value="CollisionDemos"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <CommandLineParams Value="5"/>
+      </local>
+    </RunParams>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="collisiondemos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CollisionDemos"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="glutstuff.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="glutstuff"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="ContinuosConvexCollisionDemo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ContinuosConvexCollisionDemo"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="gldebugfont.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gldebugfont"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="gldebugfontmap.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gldebugfontmap"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../fos_bullet.inc"/>
+        <IsPartOfProject Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="SimplexDemo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SimplexDemo"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="LinearConvexCastDemo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LinearConvexCastDemo"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="RayTraceDemo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="RayTraceDemo"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../Dynamics/btDynamics.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="btDynamics"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="basicdemo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BasicDemo"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="CDTestFrameworkDemo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CDTestFrameworkDemo"/>
+      </Unit11>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir);.."/>
+      <OtherUnitFiles Value=".."/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <HeapSize Value="100000"/>
+      <TargetCPU Value="x86_64"/>
+      <Optimizations>
+        <VariablesInRegisters Value="True"/>
+        <OptimizationLevel Value="3"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsStabs"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+        <Enabled Value="False"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
