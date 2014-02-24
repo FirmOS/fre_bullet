@@ -4822,7 +4822,8 @@ begin
   msecOff:=msecTicks - elapsedTicks;
   if (msecOff < -100) or (msecOff > 100) then begin
     // Adjust the starting time forwards.
-    msecAdjustment:=btMin(trunc(msecOff * m_data.mClockFrequency / 1000), elapsedTime - m_data.mPrevElapsedTime);
+    //msecAdjustment:=btMin(trunc(msecOff * m_data.mClockFrequency / 1000), elapsedTime - m_data.mPrevElapsedTime);
+    msecAdjustment:=0;
     m_data.mStartTime += msecAdjustment;
     elapsedTime -= msecAdjustment;
     // Recompute the number of millisecond ticks elapsed.
@@ -4861,7 +4862,8 @@ begin
    msecOff:=msecTicks - elapsedTicks;
    if (msecOff < -100) or (msecOff > 100) then begin
      // Adjust the starting time forwards.
-     msecAdjustment:=btMin(trunc(msecOff * m_data.mClockFrequency / 1000), elapsedTime - m_data.mPrevElapsedTime);
+     //msecAdjustment:=btMin(trunc(msecOff * m_data.mClockFrequency / 1000), elapsedTime - m_data.mPrevElapsedTime);
+     msecAdjustment := 0;
      m_data.mStartTime += msecAdjustment;
      elapsedTime -= msecAdjustment;
      // Recompute the number of millisecond ticks elapsed.
