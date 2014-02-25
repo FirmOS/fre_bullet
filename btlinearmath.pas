@@ -40,9 +40,9 @@ subject to the following restrictions:
 // FirmOS Porting Licence
 // The code written here is a derivative work of the above mentioned "original" code.
 // The code was translated to Freepascal and changed/enhanced or stripped where necessary to fit the needs of the FirmOS System
-// If you want to use this code you need to comply to the "original" licence and the following 4 Clause BSD Style Licence.
+// If you want to use this code you need to comply to the "original" licence and the following BSD Style Licence.
 //
-// Copyright (c) 2000-2010
+// Copyright (c) 2000-2014, Helmut Hartl
 //
 // FirmOS Business Solutions GmbH. All rights reserved.
 //
@@ -51,9 +51,7 @@ subject to the following restrictions:
 //   1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 //   2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer
 //      in the documentation and/or other materials provided with the distribution.
-//   3. All advertising materials mentioning features or use of this software must display the following acknowledgement:
-//      “This product includes software developed by FirmOS Business Solutions,  and its contributors - www.firmos.com”
-//   4. Neither the name of FirmOS nor the names of its contributors may be used to endorse or promote
+//   3. Neither the name of FirmOS nor the names of its contributors may be used to endorse or promote
 //      products derived from this software without specific prior written permission.
 //
 // THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
@@ -4952,4 +4950,4 @@ initialization
 finalization
 
 end.
-
+

@@ -142,4 +142,4 @@ begin
   else
     writeln('Usage : ',paramstr(0)+' demonumber (0-6, 10) param');
   end;
-end.
+end.
